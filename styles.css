@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Roboto, 'Courier New', Courier, monospace;
+    }
+
+header {
+    text-align: center;
+    font-size: medium;
+    color: antiquewhite;
+    background-color: #086b6e;
+    padding: 0px 0px 20px 0px;
+}
+
+
+header > img {
+    height: 500px;
+}
+
+nav a{
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+nav a:hover {
+    color: #292525;
+    background-color: #77bdbf;
+
+}
+.projects > h1 {
+    padding-top: 10px;
+
+}
+
+h1 {
+    padding: 2px;
+    font-size: 3em;
+    color: antiquewhite;
+}
+
+h2, h3 {
+    font-size: 3em;
+    color:  #086b6e; 
+   }
+
+main {
+    background-color: antiquewhite;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    image
+}
+
+.card {
+    min-height: 200px;
+}
